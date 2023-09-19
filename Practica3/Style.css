@@ -1,0 +1,20 @@
+h1,
+h2 {
+    color: green;
+}
+
+p {
+    color: white;
+    text-align: left;
+}
+
+a {
+    color: palevioletred;
+}
+
+body{
+
+    background-color:darkred; 
+    font-family:Arial, Helvetica, sans-serif 
+    ; text-align: center;
+}
