@@ -11,7 +11,8 @@
 }
 
 .divFondo{
-    margin: 500px;
+    
+    margin: 150;
     width: 900px;
     height: 900px;
     background-color:white;
@@ -32,6 +33,7 @@
 }
 
 .fondo{
+    padding: 50px;
     background-color: lightgray;
 
 }
