@@ -1,0 +1,40 @@
+.aliniacion{
+    
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-right: 300px;
+
+}
+
+.tamaño{
+    font-size: 40px;
+}
+
+.divFondo{
+    margin: 500px;
+    width: 900px;
+    height: 900px;
+    background-color:white;
+    border-radius: 50px; 
+  
+}
+
+.acomodo{
+    padding-left: 50;
+}
+
+
+
+.colorRosa{
+    color: palevioletred;
+    
+
+}
+
+.fondo{
+    background-color: lightgray;
+
+}
+
+
+
