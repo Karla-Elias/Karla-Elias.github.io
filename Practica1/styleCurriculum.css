@@ -1,42 +1,60 @@
-.aliniacion{
-    
-   padding-left: 50px;
-   padding-top: 50px;
-   padding-right: 300px;
+.aliniacion {
+
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 300px;
 
 }
 
-.tamaño{
+.colorRosa {
+    color: palevioletred;
+    font-size: 20px;
+
+
+
+}
+
+.tamaño {
+    color: palevioletred;
     font-size: 40px;
+
 }
 
-.divFondo{
-    
-    margin: 150;
+.divFondo {
+
+    padding: 50px;
     width: 900px;
     height: 900px;
-    background-color:white;
-    border-radius: 50px; 
-  
-}
-
-.acomodo{
-    padding-left: 50;
-}
-
-
-
-.colorRosa{
-    color: palevioletred;
-    
+    background-color: white;
+    border-radius: 50px;
 
 }
 
-.fondo{
+
+
+
+
+.fondo {
     padding: 50px;
     background-color: lightgray;
 
+
 }
 
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
 
+}
 
+.tamañotabla {
+    width: 80%;
+    height: 200px;
+}
+
+.margen {
+    margin: 40px;
+}
