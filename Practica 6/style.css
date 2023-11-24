@@ -1,0 +1,117 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.hoja {
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(192, 191, 191);
+}
+
+
+.encabezado {
+    float: left;
+
+}
+
+.subtitulo {
+    clear: both;
+    margin-top: 15px;
+  
+
+
+}
+
+table.tablaSW th {
+    color: white;
+    background-color: #333;
+    border: 1px solid white;
+   
+
+}
+
+div.IngSW table, td {
+    border: 1px solid rgb(173, 173, 173);
+    border-collapse: collapse;
+
+
+}
+
+
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+
+.IngSW {
+    height: 240px;
+    margin-bottom: 50px
+}
+
+.etapasMetodologia{
+    margin-top: 150px;
+}
+
+
+
+.etapas {
+    border-radius: 10px;
+    width: 40%;
+    background-color: aqua;
+    float: left;
+    padding-top: 15px;
+    padding-left: 5px;
+
+}
+
+.metodologia {
+    border-radius: 10px;
+    width: 40%;
+    background-color: aquamarine;
+    padding-top: 15px;
+    padding-left: 5px;
+    float: right;
+}
+
+.modelo {
+    clear: both;
+    margin-top: 400px;
+
+}
+
+
+
+table.tablaModelo img {
+    width: 300px;
+
+}
+
+.tablaModelo {
+    width: 100%;
+
+
+}
+
+
+div.modelo table, td{
+    border-collapse: collapse;
+}
+
+
+
+
+.centrado {
+    text-align: center;
+}
+
+
+
+.sombra {
+    box-shadow: 5px 8px 15px black;
+
+}

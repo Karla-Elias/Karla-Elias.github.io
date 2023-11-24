@@ -1,45 +1,50 @@
-.aliniacion {
 
-    padding-left: 50px;
-    padding-top: 50px;
-    padding-right: 300px;
 
+main {
+    display: grid;
+    grid-template-areas:
+        ". header ."
+        ". imagen  .  "
+        "contacto educacion habilidades";
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 1.7vw;
+    
 }
 
-.colorRosa {
-    color: palevioletred;
-    font-size: 20px;
-
-
-
-}
-
-.tamaño {
-    color: palevioletred;
-    font-size: 40px;
-
-}
-
-.divFondo {
-
-    padding: 50px;
-    width: 900px;
-    height: 900px;
-    background-color: white;
-    border-radius: 50px;
-
+header {
+    grid-area: header;
+    text-align: center;
 }
 
 
+section#imagen {
+    grid-area: imagen;
+    width: 100%;
+    text-align: center;
 
+}
 
+section#contacto {
+    grid-area: contacto;
+    margin: 0 auto;
+    padding: 1vw;
 
-.fondo {
-    padding: 50px;
-    background-color: lightgray;
+}
+
+section#educacion {
+    grid-area: educacion;
+    margin: 0 auto;
+    padding: 1vw;
+}
+
+section#habilidades {
+    grid-area: habilidades;
+    margin: 0 auto;
+    padding: 1vw;
 
 
 }
+
 
 table,
 td,
@@ -48,13 +53,81 @@ th {
     border-collapse: collapse;
     text-align: center;
 
+
+
 }
 
-.tamañotabla {
-    width: 80%;
-    height: 200px;
+table {
+    width: 50%;
 }
 
-.margen {
-    margin: 40px;
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    main {
+        font-size: 3vw;
+        display: grid;
+        grid-template-areas:
+            "header "
+            "imagen"
+            "contacto"
+            "educacion"
+            "habilidades";
+    }
+
+    header {
+        grid-area: header;
+        text-align: center;
+    }
+
+
+    section#imagen {
+        grid-area: imagen;
+        width: 100%;
+        text-align: center;
+    }
+
+    section#contacto {
+        grid-area: contacto;
+       margin-left: 0;
+    }
+
+    section#educacion {
+        grid-area: educacion;
+        margin-left: 0;
+
+    }
+
+    section#habilidades {
+        grid-area: habilidades;
+        margin-left: 0;
+
+    }
+
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        text-align: center;
+
+
+
+    }
+
+    table {
+        width: 50%;
+    }
+
+
+}
+
+.colorRosa {
+    color: palevioletred;
+
+
+
 }

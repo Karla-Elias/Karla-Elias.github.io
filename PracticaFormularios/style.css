@@ -1,0 +1,44 @@
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.root{
+    width: 500px;
+    height: 430px;
+    margin: 0 auto;
+    background-color: chocolate;
+}
+
+
+.conteiner{
+    width: 490px;
+    height: 350px;
+   background-color: rgb(243, 214, 220);
+   padding-left: 10px;
+}
+
+.formulario{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(245, 245, 175);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+form{
+
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.espacio{
+    padding-bottom: 40px;
+}
+
+h3{
+    color: bisque;
+}
+
+

@@ -5,7 +5,7 @@
     font-size: small;
 }
 
-.divHoja {
+.Hoja {
     width: 8.6in;
     height: 11in;
     background-color: white;
@@ -14,65 +14,62 @@
     background-size: 50%;
     background-position: center center;
     background-repeat: no-repeat;
-    box-shadow: 10px 5px 20px black ;
+    box-shadow: 10px 10px 10px black;
 }
 
 
-.espacio {
-    margin-top: 80px;
+.encabezado img {
+    width: 100%;
 }
 
-.espacioP{
-    margin-top: 40px;
-
+.impresion {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
 }
 
-.tamaño {
-    width: 8.6in;
+.datosPaciente td,
+.datosPaciente th{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
 }
 
-
-.tamañofirma {
-    width: 180px;
-
+.datosPaciente{
+    font-size: small;
+    padding: 20;
+    clear: both;
 }
 
-.centrado{
+.analisis{
+    background-color: #999;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.resultado, td {
     text-align: center;
 }
 
 
-
-.derecha {
+.derecha{
     float: right;
-
 }
 
 
-div .border td, div .border th {
-    padding-left: 2px;
-    padding-right: 2px;
-    border: 1px solid black;
-    border-radius: 10px;
-    
-
+.muestra{
+    width: 70%;
+    text-align: center;
 }
 
-.bordedos{
-    border-radius: 8px;
-    padding: 5px;
-  background-color: rgb(174, 172, 172);
-}
-
-
-
-.padings {
-    padding-left: 60px;
-    padding-right: 60px;
-
-}
-
-.ancho{
+.metodo{
+    float: left;
     width: 30%;
-    
 }
